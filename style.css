@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#commentContainer {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.comment {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 20px;
+    color: #ff5733;
+}
+
+#commentSection {
+    display: none;
+    margin-top: 20px;
+}
+
+#playButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#playButton:hover {
+    background-color: #45a049;
+}

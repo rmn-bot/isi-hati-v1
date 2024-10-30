@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon-isi Hati</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Keluarkan Isi Hati Kamu</h1>
+        <button id="playButton">Play & Ungkapkan</button>
+        <div id="commentSection">
+            <input type="text" id="commentInput" placeholder="Tulis komentar...">
+            <button id="sendComment">Kirim</button>
+        </div>
+        <div id="commentContainer"></div>
+    </div>
+    <audio id="backgroundMusic" src="ibu.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
